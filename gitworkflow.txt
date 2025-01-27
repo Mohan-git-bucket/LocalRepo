@@ -1,0 +1,6 @@
+Local Git 
+1.github create repository
+2.then clone to local
+3.add .
+4.commit
+5.push
