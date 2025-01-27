@@ -12,3 +12,16 @@ git branch -d branchname
 
 Git difference from two branch(If we are in feature1 branch)
 git diff main (main branch with that we want to compare)
+
+Git Merge
+git merge branchname
+
+Undo add/commit command
+if we executed the add command and want to revoke or reset before commiting
+--git reset filename or git reset
+
+Git commit undo for latest commit
+--git reset HEAD~1 (commit will be stored in queue so last commit will be setted as HEAD)
+
+Git commit undo for multiple commit
+--git reset hashid (which are stored on git log basically thread id)
