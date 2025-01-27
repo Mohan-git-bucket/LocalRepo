@@ -4,3 +4,11 @@ Local Git
 3.add .
 4.commit
 5.push
+
+Git create branch
+git checkout -b branchname
+Delete branch 
+git branch -d branchname
+
+Git difference from two branch(If we are in feature1 branch)
+git diff main (main branch with that we want to compare)
